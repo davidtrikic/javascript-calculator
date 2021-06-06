@@ -4,3 +4,6 @@
 
 
 ## Screenshots
+
+![](./screenshots/screenshot_light.png)
+![](./screenshots/screenshot_dark.png)

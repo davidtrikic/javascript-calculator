@@ -5,5 +5,5 @@
 
 ## Screenshots
 
-![](./screenshots/screenshot_light.png)
-![](./screenshots/screenshot_dark.png)
+![](./screenshots/Screenshot_light.png)
+![](./screenshots/Screenshot_dark.png)

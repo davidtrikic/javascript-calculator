@@ -145,7 +145,7 @@ function exponent() {
 			reset();
 			let result = x;
 			for (let i = 1; i < y; i++) {
-				result = result * x;
+				result *= x;
 			}
 			outputResult.innerHTML = result;
 		}

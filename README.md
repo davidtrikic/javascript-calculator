@@ -1,9 +1,11 @@
 # Javascript Calculator
-- Simple HTML, CSS & Javascript calculator
-- Dark and Light Theme
+- Simple HTML, CSS & Javascript Calculator
+- Dark & Light Theme
+- Backspace & Clear options
+- Square and Exponentiation
 
 ## Live Demo
-URL:  [https://davidtrikic.github.io/javascript-calculator](https://davidtrikic.github.io/javascript-calculator)
+URL:  [Javascript Calculator](https://davidtrikic.github.io/javascript-calculator)
 
 ## Screenshots
 

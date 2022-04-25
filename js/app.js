@@ -6,6 +6,18 @@ const themeToggler = document.querySelector('input[name=theme]');
 // Add event listeners to buttons
 document.addEventListener('click', listenForButtons, false);
 
+
+// Keyboard listeners
+document.addEventListener('keydown', function(e) {
+  const symbols = ['+', '-', '*', '/', '.'];
+
+  if(e.key >= 0 && e.key <= 9 || symbols.includes(e.key)) writeOutput(e);
+  if(e.key === 'Enter') equals();
+  if(e.key === 'Delete') clear();
+  if(e.key === 'Backspace') del();
+});
+
+
 // Execute functions on buttons
 function listenForButtons(e) {
   if (e.target.classList.contains('clear')) clear();
@@ -45,7 +57,11 @@ function equals() {
 // Writing on output display
 function writeOutput(e) {
     // Get the button text
-    let label = e.target.innerHTML;
+    let label;
+    // Check if keyboard or mouse event
+    if(e.type === 'keydown') label = e.key;
+    else label = e.target.innerHTML;
+
     const lastChar = output.innerHTML[output.innerHTML.length - 1]; 
     // Write result in output display
     if(outputResult.innerHTML.length > 0) {

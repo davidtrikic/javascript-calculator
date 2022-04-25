@@ -1,5 +1,5 @@
 # Javascript Calculator
-- Simple HTML, CSS & Javascript Calculator with Neumophic Design
+- Simple HTML, CSS & Javascript Calculator with Neumorphic Design
 - Dark & Light Theme
 - Backspace & Clear options
 - Square and Exponentiation

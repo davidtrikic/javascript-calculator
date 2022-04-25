@@ -3,6 +3,7 @@
 - Dark & Light Theme
 - Backspace & Clear options
 - Square and Exponentiation
+- Keyboard Support
 
 ## Live Demo
 URL:  [Javascript Calculator](https://davidtrikic.github.io/javascript-calculator)
